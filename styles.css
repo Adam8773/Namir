@@ -1,0 +1,30 @@
+font-face {
+	font-family: 'ranga-bold102';
+	src: url('ranga-bold102-webfont.woff');
+}
+.flottant
+{
+	float: left;
+}
+body
+{
+	background-image: url("images/chat.jpg");
+	background-repeat: no-repeat;
+	background-position: right;
+	background-color: silver;
+}
+ 
+h1
+{
+	background-color: black;
+	color: yellow;
+}
+h1 + p
+{
+	border: 4px blue solid;
+	border-left: dotted;
+	text-shadow: 8px 8px 5px black;
+	font-size: 200%;
+	font-family:'ranga-bold102';
+	text-align: center;
+}
